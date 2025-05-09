@@ -1,0 +1,5 @@
+console.log("This site is solely made and maintained by me.")
+console.log("If you have any questions, please contact me with the links at the bottom of the page.")
+console.log("This site is not affiliated with any other site or company.")
+console.log("This site is copyrighted by me.")
+console.log("Copyright © 2025, Scrapboy784")

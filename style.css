@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* list-style-type: none; */
+}
+/* font */
+body{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+  /* font end */
+body{
+    background-image: url(img/background.jpg);
+    text-align: center;
+    color: white;
+}
+header{
+    padding: 15px;
+    color: whitesmoke;
+    background-color: dimgrey;
+    margin-bottom: 55px;
+}
+footer{
+    list-style-type: none;
+}
+.main img{
+    margin: auto;
+    border-radius: 50%;
+    border: solid darkslategrey 5px;
+    margin-top: 20px ;
+    width: 40%;
+}
+.main p{
+    margin: 40px;
+    margin-bottom: 100px;
+    background-color: dimgrey;
+    border: dimgrey solid 10px;
+    border-radius: 20px;
+}
+#copyright{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin: 10px 500px 20px 500px;
+    text-align: center;
+    padding: 10px;
+}
+.spacer{
+    color: transparent;
+}
+.links{
+    background-color: white;
+    border: 1px solid whites;
+    border-radius: 20px;
+    margin: 15px 200px 15px 200px;
+    /* display: block; */
+}
+.links img{
+    width: 75px;
+    height: auto;
+    padding: 15px;
+}
+.links a{
+    padding: 100px;
+}
+.contact{
+    display: grid;
+    grid-column: 1fr;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin: 15px 525px 15px 525px;
+    font-size: 20px;
+    gap: 8px;
+}
+.contact ul{
+    display: grid;
+    grid-column: 1fr;
+    gap: 5px;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.contact a:hover{
+    color: dimgrey;
+}
+.top{
+    background-color: whitesmoke;
+    border:1px solid whitesmoke;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 15px 600px 15px 600px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main a{
+    color: rgb(0, 174, 255);
+}
+#double{
+    margin-right: auto ;
+    margin-left: 15px;
+}
+#triple, #tripleL{
+    width: 400px;
+    /* margin-right: auto; */
+}
+#tripleL{
+    margin-left: 20px;
+}
+.tripleGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 0px;
+}
+.tripleGridCenter{
+    grid-column: span 2;
+}
+.main ul{
+    margin: 40px;
+    margin-bottom: 100px;
+    background-color: dimgrey;
+    border: dimgrey solid 10px;
+    border-radius: 20px;
+    text-align: left;
+    list-style-type:square;
+    /* list-style-position:initial; */
+    padding-left: 15px;
+}
+.zodiac{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Ophiuchus{
+    grid-column: 2 / span 1;
+}
+.elementsGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.triplerow img{
+    width: 25%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+h4{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10%;
+    background-color: dimgrey;
+    border: dimgrey solid 10px;
+    border-radius: 20px;
+    margin:100px;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+}
+#tokens{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.container{
+    background: rgba(0, 0, 0, 0.3);
+    margin: 50px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+
+@media screen and (width: 2560px) {
+    .links{
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 20px;
+        margin: 15px 300px 50px 300px;
+        background-color: whitesmoke;
+        /* display: block; */
+    }
+    .links img{
+        width: 315px;
+        height: auto;
+        padding: 50px;
+    }
+    .links a{
+        padding: 100px;
+    }
+    .contact{
+        display: grid;
+        grid-column: 1fr;
+        padding: 20px;
+        background-color: whitesmoke;
+        border: 1px solid whitesmoke;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        margin: 15px 650px 75px 650px;
+        font-size: 50px;
+        gap: 20px;
+    }
+    .contact ul{
+        display: grid;
+        grid-column: 1fr;
+        gap: 10px;
+    }
+    #triple, #tripleL{
+        width: 700px;
+        /* margin-right: auto; */
+    }
+    #tripleL{
+        margin-left: 50px;
+    }
+    #double{
+        margin-right: auto ;
+        margin-left: 45px;
+    }
+    .main img{
+        border-width: 20px;
+    }
+    body{
+        font-size: xxx-large;
+    }
+    .top{
+        margin: 25px 1150px 25px 1150px;
+    }
+    #copyright{
+        margin: 10px 825px 20px 825px;
+    }
+    .contact{
+        margin: 15px 950px 15px 950px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .top{
+        margin: 15px 650px 15px 650px;
+    }
+    #copyright{
+        margin: 10px 550px 20px 550px;
+    }
+    .contact{
+        margin: 15px 575px 15px 575px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .top{
+        margin: 15px 450px 15px 450px;
+    }
+    #copyright{
+        margin: 10px 350px 20px 350px;
+    }
+    .contact{
+        margin: 15px 375px 15px 375px;
+    }
+}
+@media screen and (max-width: 768px) {    
+    .main img{
+        width: 60%;
+    }
+    #doubleL, #double{
+        width: 40%;
+    }
+    .contact{
+        margin: 15px 250px 15px 250px;
+    }
+    .top{
+        margin: 15px 300px 15px 300px;
+    }
+    #copyright{
+        margin: 10px 225px 20px 225px;
+    }
+    #triple, #tripleL{
+        width: 220px;
+        /* margin-right: auto; */
+    }
+}
+@media screen and (max-width: 425px) {
+    .links{
+        margin: 15px 50px 15px 50px;
+    }
+    .links a{
+        padding: 10px;
+    }
+    .contact{
+        margin: 15px 75px 15px 75px;
+    }
+    .top{
+        margin: 15px 150px 15px 150px;
+    }
+    #copyright{
+        margin: 10px 25px 20px 25px;
+    }
+    .container{
+        margin: 5px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    h4{
+        margin: 10px;
+        padding: 5px;
+    }
+    .zodiac{ 
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0px;
+    }
+    .Ophiuchus{
+        grid-column: 1 / span 2;
+        width: 50%;
+        justify-self: center;
+    }   
+}
+@media screen and (max-width: 375px) {
+    .top{
+        margin: 15px 125px 15px 125px;
+    }
+    #copyright{
+        margin: 10px 40px 20px 40px;
+    }
+        .contact{
+        margin: 15px 50px 15px 50px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .top{
+        margin: 15px 100px 15px 100px;
+    }
+    #copyright{
+        margin: 10px 40px 20px 40px;
+        font-size: small;
+    }
+    .contact{
+        margin: 15px 25px 15px 25px;
+    }
+    *{
+        justify-content: center;
+    }
+}
